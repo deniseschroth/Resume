@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <center><h1>My Resume</h1></center>
+        <hr />
+        <center><img src="./assets/CV Photo.jpg" alt="My CV Picture" width="200"></center>
+        <center><h2>Denise Schroth</h2></center>
+        <center><h3>HR Administrator</h3></center>
+        <hr />
+    </header>
+    <main>
+        <section>
+            <center><h3>Work Experience</h3></center>
+            <center><p>I am Denise, an HR Administrator with a key focus on payroll management. <br>Over the past 3 years, I have developed expertise in processing accurate monthly payrolls, <br>handling employee queries regarding compensation and benefits, and ensuring all data <br> management adheres to legal compliance standards. I thrive in a fast-paced environment <br> where precision and confidentiality are paramount.</p></center>
+        </section>
+        <hr />
+        <section>
+            <center><h3>Goals and Ambitions</h3></center>
+            <center><p>I want to see much more in the future than just what literally lies before my eyes. <br> After years of only seeing the finished products, I would like to understand the background. <br> How are these products built, and what exactly goes into the final result? As a hobby gamer, I keep noticing <br> how fast and advanced our technology already is, and now I finally want to become a part of it.</p></center>
+            <hr />
+        </section>
+        <section>
+            <center><h3>My way to Technology</h3></center>
+            <style>
+.center-block {
+    width: fit-content;   /* Breite passt sich der Liste an */
+    margin: 0 auto;       /* zentriert den Block */
+}
+</style>
+            <ol class ="center-block">
+                <li>I started by learning the basics of HTML and CSS.</li>
+                <li>Buyed my first course <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">The Complete Web Development Bootcamp</a> on udemy and practiced a lot.</li>
+                <li>Created my first simple web pages and projects.</li>          
+            </ol>
+            <hr />
+        </section>
+        <section>
+            <center><h3>Thanks for watching and see u soon on my Journey</h3></center>
+            <center><p>If you have any questions or want to connect, feel free to reach out!</p></center>
+            <center>
+            <a href="https://github.com/deniseschroth"><img src="./assets/GitHub.jpg" alt ="GitHub Logo" width="100"></a>
+            <a href="https://www.linkedin.com/in/denise-schroth"><img src="./assets/LinkedIn.jpg" alt ="LinkedIn Logo" width="100"></a>
+            </center>
+        </section>
+    </main>
+    <footer>
+        <p>© <span id="year"></span> Denise Schroth. All rights reserved.</p>
+    </footer>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
